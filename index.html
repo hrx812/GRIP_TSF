@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+
+            <div class="nav-links " id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li>
+                        <a href="index.html"> <b>Home</b> </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html"><b>About</b></a>
+                    </li>
+                    <li>
+                        <a href="Donate.html"><b>Donate</b></a>
+                    </li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>FEED THE HUNGER ORGANIZATION</h1>
+            <p>show some love Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Nostrum, magni temporibus quidem vitae.</p>
+            <a href="donate.html" class="hero-btn"> <b>DONATE</b></a>
+        </div>
+
+    </section>
+    <!-----JS---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <section class="footer">
+        <h5>ABOUT US</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis explicabo minus earum in cumque accusamus adipisci hic doloremque
+            <br>dignissimos aliquam? Omnis amet, quia placeat saepe perspiciatis nihil quas dicta ea.</p>
+        <br>
+
+        <p>Copyright &copy Yitendra Pushkar </p>
+
+
+
+    </section>
+
+
+
+</body>
+
+</html>
