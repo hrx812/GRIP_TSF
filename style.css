@@ -20,11 +20,6 @@ nav {
     align-items: center;
 }
 
-nav img {
-    height: 70px;
-    width: 255px;
-}
-
 .nav-links {
     flex: 1;
     text-align: right;
